@@ -15,14 +15,18 @@ public class Main {
 
         /* Chamará a classe Mensagem e retornará uma mensagem
         de acordo com a hora passada via parametro. */
+        
         Mensagem.retornaMensagem(9);
         Mensagem.retornaMensagem(12);
         Mensagem.retornaMensagem(18);
         Mensagem.retornaMensagem(0);
         System.out.println();
 
-
-
+        
+        /* Chamará a classe Emprestimo para que use seus
+        métodos e retornará o valor final do emprestimo
+        passando o parametro valor e número de parcelas. */
+        
         Emprestimo.calcular(400, Emprestimo.getDuasParcelas());
         Emprestimo.calcular(400, Emprestimo.getTresParcelas());
         Emprestimo.calcular(400, 5);
@@ -30,3 +34,4 @@ public class Main {
     }
 
 }
+
